@@ -1,0 +1,1 @@
+reg add "hkcu\software\policies\microsoft\windows\explorer" /v Disablesearchboxsuggestions /t REG_DWORD /d 1 /f

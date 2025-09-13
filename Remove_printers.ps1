@@ -1,0 +1,5 @@
+﻿Remove-Printer -Name "Microsoft XPS Document Writer"
+Remove-Printer -Name "OneNote for Windows 10"
+Remove-Printer -Name "OneNote (Desktop)"
+Remove-Printer -Name "OneNote"
+Remove-Printer -Name "Fax"
