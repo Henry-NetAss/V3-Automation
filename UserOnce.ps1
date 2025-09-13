@@ -1,4 +1,4 @@
-﻿$scripts = @(
+$scripts = @(
 	{
 		Get-AppxPackage -Name 'Microsoft.Windows.Ai.Copilot.Provider' | Remove-AppxPackage;
 	};
@@ -65,4 +65,4 @@
 		& $script;
 		$complete += $increment;
 	}
-} *>&1 >> "$env:TEMP\UserOnce.log";
+} *>&1 >> "C:\na\V3\Useronce.log";

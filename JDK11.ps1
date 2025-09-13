@@ -1,0 +1,1 @@
+echo y|winget install --id EclipseAdoptium.Temurin.11.JDK

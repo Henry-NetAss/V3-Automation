@@ -1,4 +1,4 @@
-﻿Function InstallWindowsModules
+Function InstallWindowsModules
 {
     
     Install-PackageProvider -Name NuGet -Force

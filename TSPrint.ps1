@@ -1,0 +1,1 @@
+echo y|winget install --id TerminalWorks.TSPrintClient

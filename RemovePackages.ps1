@@ -1,4 +1,4 @@
-﻿$selectors = @(
+$selectors = @(
 	'Microsoft.Microsoft3DViewer';
 	'Microsoft.BingSearch';
 	'Clipchamp.Clipchamp';
@@ -55,7 +55,7 @@ $removeCommand = {
   }
 };
 $type = 'Package';
-$logfile = 'C:\NA\Installation\RemovePackages.log';
+$logfile = 'C:\NA\V3\RemovePackages.log';
 & {
 	$installed = & $getCommand;
 	foreach( $selector in $selectors ) {

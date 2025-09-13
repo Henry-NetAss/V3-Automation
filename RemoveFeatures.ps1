@@ -1,4 +1,4 @@
-﻿$selectors = @(
+$selectors = @(
 	'MediaPlayback';
 	'MicrosoftWindowsPowerShellV2Root';
 	'Recall';
@@ -23,7 +23,7 @@ $removeCommand = {
   }
 };
 $type = 'Feature';
-$logfile = 'C:\NA\Installation\RemoveFeatures.log';
+$logfile = 'C:\NA\V3\RemoveFeatures.log';
 & {
 	$installed = & $getCommand;
 	foreach( $selector in $selectors ) {

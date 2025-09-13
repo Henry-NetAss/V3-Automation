@@ -1,4 +1,4 @@
-﻿$selectors = @(
+$selectors = @(
 	'Print.Fax.Scan';
 	'Language.Handwriting';
 	'Browser.InternetExplorer';
@@ -36,7 +36,7 @@ $removeCommand = {
   }
 };
 $type = 'Capability';
-$logfile = 'C:\NA\Installation\RemoveCapabilities.log';
+$logfile = 'C:\NA\V3\RemoveCapabilities.log';
 & {
 	$installed = & $getCommand;
 	foreach( $selector in $selectors ) {
