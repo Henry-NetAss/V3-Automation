@@ -1,4 +1,4 @@
-﻿Set-ItemProperty -Path "HKCU:\Control Panel\International" -Name sCurrency -Value "R"
+Set-ItemProperty -Path "HKCU:\Control Panel\International" -Name sCurrency -Value "R"
 Set-ItemProperty -Path "HKCU:\Control Panel\International" -Name sDecimal -Value "."
 Set-ItemProperty -Path "HKCU:\Control Panel\International" -Name sList -Value ","
 Set-ItemProperty -Path "HKCU:\Control Panel\International" -Name sMonDecimalSep -Value "."
