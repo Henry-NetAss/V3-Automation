@@ -21,3 +21,5 @@ New-Item -Path $regPath -Force | Out-Null
 Set-ItemProperty -Path $regPath -Name "ComposeFontComplex" -Value "Aptos"
 Set-ItemProperty -Path $regPath -Name "ComposeFontSimple" -Value "Aptos"
 Set-ItemProperty -Path $regPath -Name "ComposeFontSize" -Value 11
+
+exit
