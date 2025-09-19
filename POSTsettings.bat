@@ -6,10 +6,11 @@ powershell.exe c:\na\V3\Desktop_Shortcuts.ps1
 # powershell.exe c:\na\V3\Officefonts.ps1
 powershell.exe c:\na\V3\taskbaricons.ps1
 powershell.exe c:\na\V3\DisableSearchBoxSuggestion.ps1
-powershell.exe c:\na\V3\Him.exe /quiet
+powershell.exe c:\na\V3\Generic.exe /quiet
 powershell.exe C:\NA\V3\Region_Settings.ps1
 powershell.exe C:\NA\V3\updates.ps1
 exit
+
 
 
 
