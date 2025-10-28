@@ -8,7 +8,9 @@ powershell.exe c:\na\V3\taskbaricons.ps1
 powershell.exe c:\na\V3\DisableSearchBoxSuggestion.ps1
 powershell.exe C:\NA\V3\Region_Settings.ps1
 powershell.exe C:\NA\V3\Checkapps.ps1
+powershell.exe c:\na\v3\Regremove.ps1
 powershell.exe C:\NA\V3\updates.ps1
+
 exit
 
 
