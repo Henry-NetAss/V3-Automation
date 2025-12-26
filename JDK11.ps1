@@ -1,1 +1,1 @@
-echo y|winget install --id EclipseAdoptium.Temurin.11.JDK
+echo y|winget install --id EclipseAdoptium.Temurin.11.JDK --source winget

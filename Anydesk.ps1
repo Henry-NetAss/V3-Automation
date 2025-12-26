@@ -1,4 +1,4 @@
-echo y|winget install --name AnyDesk
+echo y|winget install --id AnyDesk.Anydesk --source winget
 $NewPassword = 'Supp0rt@NA123'
 Invoke-Command -ScriptBlock {
     Param($NewPassword)

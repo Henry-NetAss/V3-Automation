@@ -1,1 +1,1 @@
-echo y|winget install --name NetTime
+echo y|winget install --name NetTime --source winget

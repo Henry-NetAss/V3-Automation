@@ -1,1 +1,1 @@
-echo y|winget install --id TerminalWorks.TSPrintClient
+echo y|winget install --id TerminalWorks.TSPrintClient --source winget

@@ -1,1 +1,1 @@
-echo y|winget install --id Adobe.Acrobat.Reader.32-bit
+echo y|winget install --id Adobe.Acrobat.Reader.32-bit --source winget
