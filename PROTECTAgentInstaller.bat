@@ -37,15 +37,15 @@ if "%PROCESSOR_ARCHITECTURE%" == "x86" (
   )
 )
 
-set url=http://repositorynocdn.eset.com/v1/com/eset/apps/business/era/agent/v10/10.1.1292.0/agent_x64.msi
-set checksum=af0a4c4a17e1c06b536a31d6981a35e181e083d6f77375dfc94fbd7c2299512c
+set url=http://repositorynocdn.eset.com/v1/com/eset/apps/business/era/agent/v10/10.1.4209.0/agent_x64.msi
+set checksum=7b5c0d0f661d3b9129f2976b00d866a84c948de2d451e66722c1517b279dd54e
 if defined IsArch_x86 (
-  set url=http://repositorynocdn.eset.com/v1/com/eset/apps/business/era/agent/v10/10.1.1292.0/agent_x86.msi
-  set checksum=a5ebf420a9d8f0032d1ee8472e07f1ee67b6fa3b01b52c75781e46d82461bd5c
+  set url=http://repositorynocdn.eset.com/v1/com/eset/apps/business/era/agent/v10/10.1.4209.0/agent_x86.msi
+  set checksum=d529ed92be788f58868f9624bc7b6cc3db47ddc4e73b1b059359be51f6a20af3
 )
 if defined IsArch_arm64 (
-  set url=http://repositorynocdn.eset.com/v1/com/eset/apps/business/era/agent/v10/10.1.1292.0/agent_arm64.msi
-  set checksum=a5a961d6cf753ee2c7b760e6f1b141b00b8f08f944dbbb7fa900233b31551276
+  set url=http://repositorynocdn.eset.com/v1/com/eset/apps/business/era/agent/v10/10.1.4209.0/agent_arm64.msi
+  set checksum=f966b729e6a8dfbb8251ba49b76bc43755a0780e1ac3dba56b2307a11f9ee850
 )
 
 set "installConfigFile=%installDirectory%\install_config.ini"
@@ -55,7 +55,7 @@ echo.P_ENABLE_TELEMETRY=1 >> "%installConfigFile%"
 echo.P_CONNECTION_CHOSEN=Host >> "%installConfigFile%"
 echo.P_HOSTNAME=NAERA.networkassociates.co.za >> "%installConfigFile%"
 echo.P_PORT=2222 >> "%installConfigFile%"
-echo.P_INITIAL_STATIC_GROUP=YzU3ZGIyODktMmI0Yi00YmFlLWI5M2QtMThmZmFiYmMwYTkywniBACnkS8CaqJilQx0wGrNWbw33OE23uRjCSw0HmNI9aKyYEyFDrUfKXRv9L+OgR5ngqg== >> "%installConfigFile%"
+echo.P_INITIAL_STATIC_GROUP=YzU3ZGIyODktMmI0Yi00YmFlLWI5M2QtMThmZmFiYmMwYTkyzYXmVjqRR26XvJ9OIwMVr4bYRZDUJ0pen8SerHGUwq6wSBInacRP8gWi5ayJKq1qiOT/Ag== >> "%installConfigFile%"
 echo.P_USE_PROXY=1 >> "%installConfigFile%"
 echo.P_PROXY_HTTP_HOSTNAME=192.168.253.222 >> "%installConfigFile%"
 echo.P_PROXY_HTTP_PORT=3128 >> "%installConfigFile%"
